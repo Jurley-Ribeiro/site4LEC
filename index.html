@@ -14,16 +14,16 @@
 </head>
 
 <body>
+  <section id="home" class="hero is-notification is-fullheight">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="0">
+          <img src="http://bulma.io/images/bulma-logo.png" alt="4LEC logo">
+        </a>
+      </div>
 
-  <nav class="nav">
-    <div class="nav-left">
-      <a class="nav-item">
-        <img src="http://bulma.io/images/bulma-logo.png" alt="4LEC logo">
-      </a>
-    </div>
-
-    <div class="nav-center">
-      <!--<a class="nav-item">
+      <div class="nav-center">
+        <!--<a class="nav-item">
         <span class="icon">
         <i class="fa fa-github"></i>
       </span>
@@ -33,26 +33,26 @@
         <i class="fa fa-twitter"></i>
       </span>
       </a>-->
-    </div>
+      </div>
 
-    <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-    <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-    <span class="nav-toggle" id="nav-toggle">
+      <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+      <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+      <span class="nav-toggle" id="nav-toggle">
     <span></span>
-    <span></span>
-    <span></span>
-    </span>
+      <span></span>
+      <span></span>
+      </span>
 
-    <!-- This "nav-menu" is hidden on mobile -->
-    <!-- Add the modifier "is-active" to display it on mobile -->
-    <div class="nav-right nav-menu" id="nav-menu">
-      <a href="#home" class="nav-item">Home</a>
-      <a href="#terça" class="nav-item">Eventos</a>
-      <a href="#sobre" class="nav-item">Sobre</a>
-    </div>
-  </nav>
+      <!-- This "nav-menu" is hidden on mobile -->
+      <!-- Add the modifier "is-active" to display it on mobile -->
+      <div class="nav-right nav-menu" id="nav-menu">
+        <a href="0" class="nav-item">Home</a>
+        <a href="1" class="nav-item">Eventos</a>
+        <a href="2" class="nav-item">Sobre</a>
+      </div>
+    </nav>
 
-  <section id="home" class="hero is-notification is-fullheight">
+
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -65,7 +65,7 @@
     </div>
   </section>
 
-  <section id="terça" class="hero is-warning is-fullheight">
+  <section id="terça" data-section-name="terça" class="hero is-warning is-fullheight">
     <div class="hero-body">
       <div class="container">
 
@@ -144,7 +144,7 @@
                   <small>11:09 PM - 1 Jan 2016</small>
                   <span class="tag is-warning">Warning</span>
                   <span class="tag is-info">Info</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@
                   <small>11:09 PM - 1 Jan 2016</small>
                   <span class="tag is-warning">Warning</span>
                   <span class="tag is-info">Info</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -214,7 +214,7 @@
                   <small>11:09 PM - 1 Jan 2016</small>
                   <span class="tag is-warning">Warning</span>
                   <span class="tag is-info">Info</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -542,7 +542,12 @@
 
   <!--Importando Jquery-->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <!-- lib para o scroll entre as sections -->
+  <script src="./js/jquery.scrollify.js" type="text/javascript"></script>
 
+  <!-- inicialização do scroll da página -->
+  <script src="./js/scroll.js" type="text/javascript"></script>
+  <!-- Js para o funcionamento do menu sanduíche -->
   <script src="./js/nav.js" type="text/javascript"></script>
 </body>
 
