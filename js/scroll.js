@@ -1,7 +1,7 @@
 $(function() {
   $.scrollify({
     section: ".hero",
-    sectionName: 'terça',
+    sectionName: false,
     easing: "easeOutExpo",
     scrollSpeed: 1100,
     offset: 0,
