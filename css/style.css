@@ -1,1 +1,13 @@
 /* Aqui será escrito o CSS personalizado caso for preciso */
+
+.is-blue {
+  background-color: #3273dc;
+}
+
+.is-green {
+  background-color: #23d160;
+}
+
+.is-text-white {
+  color: #fff;
+}
