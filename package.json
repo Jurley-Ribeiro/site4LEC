@@ -1,0 +1,19 @@
+{
+  "name": "site4lec",
+  "version": "0.0.1",
+  "description": "Site para o 4LEC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenohq/site4LEC.git"
+  },
+  "author": "Breno Henrique",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/brenohq/site4LEC/issues"
+  },
+  "homepage": "https://github.com/brenohq/site4LEC#readme"
+}
