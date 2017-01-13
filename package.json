@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brenohq/site4LEC/issues"
   },
-  "homepage": "https://github.com/brenohq/site4LEC#readme"
+  "homepage": "https://github.com/brenohq/site4LEC#readme",
+  "dependencies": {
+    "bulma": "^0.3.0"
+  }
 }
