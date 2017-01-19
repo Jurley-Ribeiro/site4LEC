@@ -21,3 +21,8 @@
 .has-padding-10 {
   padding: 10%;
 }
+
+.has-width-70 {
+  width: 70%;
+  margin: auto;
+}
