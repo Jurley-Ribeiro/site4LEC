@@ -4,4 +4,7 @@ Para rodar o projeto, basta clonar o repositorio no seu servidor local e rodar o
 
 ~~~~
 $ npm install
+$ gulp
 ~~~~
+Arquivos de código fonte: /src
+Arquivos depois do build: /public
