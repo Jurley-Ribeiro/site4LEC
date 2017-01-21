@@ -20,8 +20,7 @@
   "dependencies": {
     "bulma": "^0.3.0",
     "jquery": "^3.1.1",
-    "jquery-scrollify": "^1.0.12",
-    "run-sequence": "^1.2.2"
+    "jquery-scrollify": "^1.0.12"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -31,6 +30,7 @@
     "gulp-imagemin": "^3.1.1",
     "gulp-size": "^2.1.0",
     "gulp-sizereport": "^1.2.0",
-    "gulp-uncss": "^1.0.6"
+    "gulp-uncss": "^1.0.6",
+    "run-sequence": "^1.2.2"
   }
 }
