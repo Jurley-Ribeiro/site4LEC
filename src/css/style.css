@@ -22,8 +22,17 @@
   padding: 10%;
 }
 
+.has-padding-3 {
+  padding: 3%;
+}
+
 .has-width-70 {
   width: 70%;
+  margin: auto;
+}
+
+.has-width-30 {
+  width: 30% !important;
   margin: auto;
 }
 
