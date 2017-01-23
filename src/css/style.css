@@ -18,6 +18,10 @@
   color: #fff;
 }
 
+.has-padding-25 {
+  padding: 25%;
+}
+
 .has-padding-10 {
   padding: 10%;
 }
@@ -64,4 +68,8 @@ footer {
 
 #fakeSection {
   height: 0 !important;
+}
+
+#stefany {
+  margin-bottom: 0;
 }

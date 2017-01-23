@@ -7,7 +7,8 @@ const
   htmlmin = require('gulp-htmlmin'),
   size = require('gulp-size'),
   sizereport = require('gulp-sizereport'),
-  runSequence = require('run-sequence');
+  runSequence = require('run-sequence'),
+  cssnano = require('gulp-cssnano');
 
 gulp.task('pack-js', function() {
   return gulp.src(['node_modules/jquery/dist/jquery.min.js', 'node_modules/jquery-scrollify/jquery.scrollify.min.js', 'src/js/scroll.js', 'src/js/nav.js'])
@@ -18,6 +19,7 @@ gulp.task('pack-js', function() {
 gulp.task('pack-css', function() {
   return gulp.src(['src/css/reset.css', 'node_modules/bulma/css/bulma.css', 'node_modules/font-awesome/css/font-awesome.min.css', 'src/css/style.css'])
     .pipe(concat('stylesheet.css'))
+    .pipe(cssnano())
     .pipe(gulp.dest('public/css'));
 });
 
