@@ -70,6 +70,10 @@ footer {
   height: 0 !important;
 }
 
-#stefany {
-  margin-bottom: 0;
+.marginBottom0 {
+  margin-bottom: 0 !important;
+}
+
+.has-margin-bottom-1 {
+  margin: 1rem !important;
 }

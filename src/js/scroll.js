@@ -5,6 +5,7 @@ const scrollerConfig = {
   scrollSpeed: 1300,
   offset: 0,
   scrollbars: true,
+  touchScroll: false,
   standardScrollElements: "", // Elementos que precisar de Scroll normal.
 }
 
