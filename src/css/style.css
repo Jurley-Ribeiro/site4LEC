@@ -35,9 +35,13 @@
   margin: auto;
 }
 
-.has-width-30 {
-  width: 30% !important;
+.has-width-50 {
+  width: 50% !important;
   margin: auto;
+}
+
+.has-padding-5 {
+  padding: 5% !important;
 }
 
 .has-margin-50 {
@@ -76,4 +80,10 @@ footer {
 
 .has-margin-bottom-1 {
   margin: 1rem !important;
+}
+
+.is-vertical-centered {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
